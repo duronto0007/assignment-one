@@ -1,0 +1,65 @@
+/* Header style */
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(../Assets/Hero-bg.png);
+    width: 100%;
+    height: 698px;
+    overflow: hidden;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    font-size: 34px;
+    color: blue;
+    font-weight: bolder;
+    margin-right: 40%;
+    margin-top: 30px;
+}
+.btn-sign-up{
+    width: 132px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    margin-top: 30px;
+    border: none;
+    cursor: pointer;
+}
+.btn-sign-up:hover{
+   background-color: orangered;
+   transition: 0.3s ease;
+}
+/* Hero style  */
+.hero-section{
+    text-align: center;
+    margin-top: 12%;
+}
+.hero-title{
+    font-size: 65px;
+    color: #252432;
+    font-weight: bold;
+}
+.hero-btn{
+    font-size: 16px;
+    font-weight: bold;
+    width: 174px;
+    height: 48px;
+    color: white;
+    background-color: #4E47FF;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.hero-btn:hover{
+    background-color: orangered;
+    transition: 0.3s ease;
+}
