@@ -193,3 +193,43 @@ nav{
     font-size: 16px;
     color: #25243271;
 }
+/* Ready to focus section style */
+.ready-to-focus-section{
+    width: 1140px;
+    height: 500px;
+    background-color: rgb(219, 228, 225);
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px;
+    border-radius: 50px;
+}
+.focus-heading{
+    font-size: 50px;
+    font-weight: bold;
+}
+.focus-description{
+    font-size: 16px;
+    color: #25243273;
+    padding-top: 10px;
+}
+.get-started-free{
+    width: 195px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+    border-radius: 30px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.get-started-free:hover{
+    background-color: orangered;
+    transition: 0.3s ease;
+}
+.wc-big-image{
+    width: 840px;
+    height: 365px;
+    border-radius: 50px;
+}
