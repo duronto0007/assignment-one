@@ -138,3 +138,58 @@ nav{
     font-size: 20px;
     color: #0000005e;
 }
+/* challenges section syle */
+.challenges-section{
+    width: 1140px;
+    height: 380px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.challenges-heading{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    text-align: center;
+    padding-top: 20px;
+}
+.user-feed-back-section{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin-top: 30px;
+    
+    
+}
+.feed-back{
+    width: 366px;
+    height: 180px;
+    background-color:white;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 20px;
+}
+.box-sub-heding{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 8px;
+}
+.box-description{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.459);
+    padding-bottom: 20px;
+}
+.avatar{
+    display: flex;
+    gap: 10px;
+}
+.avatar img{
+    width: 40px;
+    height: 40px;
+}
+.reviewer-name{
+    font-size: 16px;
+}
+.reviewer-details p{
+    font-size: 16px;
+    color: #25243271;
+}
