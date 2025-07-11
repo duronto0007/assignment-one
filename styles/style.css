@@ -296,3 +296,46 @@ textarea{
     background-color: orangered;
     transition: 0.3s ease;
 }
+/* Footer style */
+footer{
+    width: 1350px;
+    height: 350px;
+    background-color: rgba(245, 242, 242, 0.692);
+    text-align: center;
+    padding-top: 200px;
+    
+}
+.footer-logo{
+    font-size: 80px;
+    font-weight: bold;
+    color: blue;
+}
+.footer-description{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.514);
+}
+.footer-nav{
+    width: 401px;
+    height: 25px;
+    margin: 0 auto;
+}
+ul {
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+    
+}
+ul li{
+    list-style: none;
+    
+   
+}
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+     
+}
+ul li a:hover{
+    color: orangered;
+    background-color: antiquewhite;
+}
